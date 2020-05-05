@@ -1,0 +1,155 @@
+.App {
+  text-align: center; 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #e1d2b8;
+  min-height: 100px;
+  border-bottom-style: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: gray;
+}
+
+p{
+  font-size: 30px;
+}
+
+option{
+  background-color: #000000;
+  margin-right: 5px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/Acceuil.jpg);
+  background-repeat: no-repeat;
+  height: 87.5vh;
+  background-size: 100vw 100vh;
+}
+
+.banniere{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/banner-2136190_640.png);  
+  background-repeat: no-repeat;
+  width: 650px;
+  height:300px;
+}
+
+.text_banniere{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  height:270px;
+  font-size: 80px;
+}
+
+.bodymonstre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/monstre2.jpg);
+  background-repeat: no-repeat;
+  height: 87.5vh;
+  background-size: 100vw 100vh;
+}
+
+.lemonstre{
+  background-color: #e1d2b8;
+  border-style: solid;
+  border-color: red;
+}
+
+.Recompense{
+  background-color: #e1d2b8;
+  min-height: 100px;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: gray;
+}
+
+
+.bodytresor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/tresor.jpg);
+  background-repeat: no-repeat;
+  height: 87.5vh;
+  background-size: 100vw 100vh;
+}
+
+.bodymarche{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/marche.jpg);
+  background-repeat: no-repeat;
+  height: 87.5vh;
+  background-size: 100vw 100vh;
+}
+
+.marche{
+  background-color: #e1d2b8;
+  border-style: solid;
+  border-color: red;
+  width: 90vw;
+}
+
+.marcheatk{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90vw;
+}
+
+.marchedef{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bodyrepos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/repos.jpg);
+  background-repeat: no-repeat;
+  height: 87.5vh;
+  background-size: 100vw 100vh;
+}
+
+.bodyporte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/Porte.jpg);
+  background-repeat: no-repeat;
+  height: 87.5vh;
+  background-size: 100vw 100vh;
+}
